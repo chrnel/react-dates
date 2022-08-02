@@ -3,7 +3,7 @@ import moment from 'moment';
 import momentJalaali from 'moment-jalaali';
 import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
-import DirectionProvider, { DIRECTIONS } from 'react-with-direction/dist/DirectionProvider';
+import DirectionProvider, { DIRECTIONS } from '@pcig/react-with-direction/dist/DirectionProvider';
 import isInclusivelyBeforeDay from '../src/utils/isInclusivelyBeforeDay';
 import isInclusivelyAfterDay from '../src/utils/isInclusivelyAfterDay';
 
